@@ -22,7 +22,7 @@ func main() {
 
 func hello(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Hello, world!")
-	fmt.Fprintln(w, "Updated:", "Mon Feb 19 08:47:53 PST 2018")
+	fmt.Fprintln(w, "Updated:", "Thu Feb 22 15:30:26 PST 2018")
 }
 
 func getEnv(envVar, defaultValue string) string {
