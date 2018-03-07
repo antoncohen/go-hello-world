@@ -1,6 +1,8 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
+  annotations:
+    flux.weave.works/automated: "true"
   labels:
     run: go-hello-world
   name: go-hello-world
