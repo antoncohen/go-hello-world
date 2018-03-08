@@ -1,0 +1,1 @@
+{"jobID":"ee427693-9419-0141-cd15-b91befb497ae","spec":{"type":"policy","cause":{"Message":"","User":"anton \u003canton@antoncohen.com\u003e"},"spec":{"default:deployment/go-hello-world":{"add":null,"remove":{"automated":"true"}}}},"result":null}
