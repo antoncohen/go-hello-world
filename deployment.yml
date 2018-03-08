@@ -22,7 +22,7 @@ spec:
         run: go-hello-world
     spec:
       containers:
-      - image: gcr.io/personal-195700/go-hello-world:7d388952a9e293a1f2966af9b01e21d0783dc6b3
+      - image: gcr.io/personal-195700/go-hello-world:f1c50a76e8bf7972eaa0eee8d05bc51b3db790d4
         imagePullPolicy: IfNotPresent
         name: go-hello-world
         ports:
